@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+
 nav {
     background-color: steelblue;
     display: block;
@@ -11,6 +18,7 @@ nav a {
 }
 
 h1 {
+    font-family: 'Rock Salt', 'Bradley Hand', cursive;
     color: stelblue;
 }
 
