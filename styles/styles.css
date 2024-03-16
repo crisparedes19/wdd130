@@ -4,6 +4,24 @@ body {
     font-family: Roboto, Helvetica, sans-serif;
 }
 
+main {
+    max-width: 840px;
+}
+
+aside {
+    width: 700px;
+    margin: 20px;
+    border: 1px solid hsla(221, 43%, 58%, 0.185);
+    padding: 1px;
+    background-color: hsla(221, 43%, 58%, 0.185);
+    color: #000000;
+    text-align: center;
+}
+
+aside img{
+    width: 200px;
+    height: auto;
+}
 
 nav {
     background-color: steelblue;
@@ -22,8 +40,8 @@ h1 {
     color: stelblue;
 }
 
-img {
-    width: 150px;
+main img {
+    width: 200px;
     height: auto; 
     border: 1px solid steelblue;
     padding: 2px;
@@ -31,5 +49,10 @@ img {
 }
 
 p {
-    padding: 10px; 
+    padding: 0; 
+}
+footer {
+    margin-top: 15px;
+    border-top: 15px;
+    text-align: center;
 }
