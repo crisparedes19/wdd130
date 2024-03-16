@@ -28,7 +28,7 @@ h1 {
 main img {
     width: 200px;
     height: auto; 
-    border: 1px solid steelblue;
+    border: 1px solid rgb(77, 140, 192);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
