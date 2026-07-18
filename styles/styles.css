@@ -1,5 +1,9 @@
+main {
+    max-width: 800px;
+}
+
 nav {
-    background-color: darkgreen;
+    background-color: #0B3D0B;
     padding: 10px;
 }
 
@@ -10,10 +14,10 @@ nav a {
 }
 
 h1 {
-    color: darkgreen;
+    color: #0B3D0B;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -22,5 +26,28 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
+}
+
+aside {
+    width: 500px;
+    margin: 50px;
+    border: 3px solid #0B3D0B;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #1E7A1E;
+    color: #E9F5E9;
+    font-size: 17px;
+    text-align: center;
+}
+
+aside img {
+    width: 230px;
+    height: auto;
+}
+
+footer {
+    margin-top: 90px;
+    border-top: 2px dotted #0B3D0B;
+    text-align: center;
 }
