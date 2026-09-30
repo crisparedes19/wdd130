@@ -9,11 +9,16 @@ nav a {
     padding: 20px;
 }
 
+main {
+    max-width: 800px;
+
+}
+
 h1 {
     color: #1E7A1E;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid #0B3D0B;
@@ -22,5 +27,26 @@ img {
 }
 
 p {
+    padding: 0;
+}
+
+aside {
+    width: 350px;
+    height: auto;
+    border: 1px solid #0B3D0B;
     padding: 10px;
+    background-color: #E8F3E8;
+    color: #1F2A1F;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 100px;
+    border-top: 2px dotted #0B3D0B;
+    text-align: center;
 }
